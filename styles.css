@@ -1,0 +1,188 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*-------------- HEADER --------------*/
+
+header {
+  background-color: #75e2e6;
+  width: 100%;
+  border-bottom: solid #048eaa;
+  height: 70px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  font-size: 1.25rem;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.navigation {
+  display: inline-block; 
+  float:right;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 20pt;
+}
+
+ a,
+ .top {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  padding: 0 5px;
+  border: transparent 2px;
+}
+
+a:hover {
+  color: #fff;
+  transition: .2s ease;
+  transform: scale(1.1);
+}
+
+/*-------------- FORM --------------*/
+
+form {
+  text-align: center;
+}
+
+.heroimage {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./images/park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.about {
+  text-align: center;
+  padding-bottom: 1px;
+  margin: auto;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 300;
+  font-size: 30pt;
+}
+
+#somedogs {
+  font-weight: 800;
+}
+
+.nametitle {
+  text-align:left;
+  color: white;
+  font-size: 12pt;
+  font-weight: 300; 
+}
+
+.input {
+  border-style: none;
+  display: inline;
+  font-size: 20pt;
+  height: 50px;
+  margin: auto;
+  padding: 0;
+  text-align: left;
+  width: 500px;
+}
+
+.submit-name-button {
+  width: 500px;
+  height: 50px;
+  padding: 0;
+  margin-top: 20px;
+  padding-top: 5px;
+  font-size: 15pt;
+  background-color: #75e2e6;
+  border: none;
+  color: black;
+}
+
+.submit-name-button:hover {
+  color: #fff;
+}
+
+.img-dogs {
+  display: block; 
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid #048eaa;
+  margin-top:10px;
+}
+
+/*-------------- DOG COLUMNS --------------*/
+
+table {
+  margin: 40px 20px;
+}
+
+.dog-text {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+footer {
+  margin-top:45px;
+  color:#ffffff;
+  background-color:#048eaa;
+  width:100%;
+  text-align: center;
+  height: 200px;
+  padding-top: 20px;
+}
+
+.buttoncol {
+  width: 75%;
+  height: 50px;
+  color: white;
+  font-size: 15pt;
+  display: block;
+  margin: auto;
+  background-color: #048eaa;
+}
+
+.buttoncol:hover {
+  color: black;
+}
+
+/*-------------- FOOTER --------------*/
+
+h3 {
+  display: block;
+  margin:auto;
+  font-size: 20pt;
+  margin-bottom: 30px;
+}
+
+.fab {
+  display: inline-block;
+  margin: 15px;
+  fill: white;
+  font-size: 4rem;
+
+}
+
+.fab:hover {
+  color: #75e2e6;
+  transition: .2s ease;
+  transform: scale(1.1);
+}
+
+
+
